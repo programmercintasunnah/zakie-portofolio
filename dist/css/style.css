@@ -13,3 +13,19 @@
     --text-color: #fff;
     --text-color-opacity: rgba(255,255,255,0.5);
 }
+
+.container{
+    width: 80%;
+    margin-inline: auto;
+}
+
+.navbar{
+    width: 100%;
+    padding: 25px 0 25px 0;
+}
+
+.navbar .navbar-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
