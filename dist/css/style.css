@@ -69,7 +69,11 @@
     color: var(--text-color-opacity);
 }
 
-.navbar .navbar-box .menu li a:hover,.navbar .navbar-box .social a:hover{
+.navbar .navbar-box .menu-bar i{
+    color: var(--text-color-opacity);
+}
+
+.navbar .navbar-box .menu li a:hover,.navbar .navbar-box .social a:hover, .navbar .navbar-box .menu-bar i:hover{
     color: var(--text-color);
 }
 
