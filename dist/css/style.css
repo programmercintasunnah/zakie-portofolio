@@ -69,6 +69,10 @@
     color: var(--text-color-opacity);
 }
 
+.navbar .navbar-box .menu-bar{
+    display: none;
+}
+
 .navbar .navbar-box .menu-bar i{
     color: var(--text-color-opacity);
 }
@@ -84,4 +88,14 @@
     opacity: 1;
     background-image: linear-gradient(--color-hitam, 4px, transparent 4px), linear-gradient(to right,#1b1b1b 4px, --color-hitam 4px);
     background-size: 80px 80px;
+}
+
+@media screen and (max-width: 990px){
+    .navbar .navbar-box .menu-bar{
+        display: block;
+    }
+
+    .navbar .navbar-box .menu{
+        display: none;
+    }
 }
